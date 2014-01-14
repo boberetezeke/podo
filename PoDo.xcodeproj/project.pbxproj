@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA6B2E441885A4DE0088DD91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6B2E431885A4DE0088DD91 /* Foundation.framework */; };
+		AA6B2E461885A4DE0088DD91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6B2E451885A4DE0088DD91 /* CoreGraphics.framework */; };
+		AA6B2E481885A4DE0088DD91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6B2E471885A4DE0088DD91 /* UIKit.framework */; };
+		AA6B2E4E1885A4DE0088DD91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA6B2E4C1885A4DE0088DD91 /* InfoPlist.strings */; };
+		AA6B2E501885A4DE0088DD91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6B2E4F1885A4DE0088DD91 /* main.m */; };
+		AA6B2E541885A4DE0088DD91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6B2E531885A4DE0088DD91 /* AppDelegate.m */; };
+		AA6B2E561885A4DE0088DD91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6B2E551885A4DE0088DD91 /* Images.xcassets */; };
+		AA6B2E5D1885A4DE0088DD91 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6B2E5C1885A4DE0088DD91 /* XCTest.framework */; };
+		AA6B2E5E1885A4DE0088DD91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6B2E431885A4DE0088DD91 /* Foundation.framework */; };
+		AA6B2E5F1885A4DE0088DD91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6B2E471885A4DE0088DD91 /* UIKit.framework */; };
+		AA6B2E671885A4DE0088DD91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA6B2E651885A4DE0088DD91 /* InfoPlist.strings */; };
+		AA6B2E691885A4DE0088DD91 /* PoDoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6B2E681885A4DE0088DD91 /* PoDoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA6B2E601885A4DE0088DD91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6B2E381885A4DE0088DD91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA6B2E3F1885A4DE0088DD91;
+			remoteInfo = PoDo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA6B2E401885A4DE0088DD91 /* PoDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6B2E431885A4DE0088DD91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA6B2E451885A4DE0088DD91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA6B2E471885A4DE0088DD91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA6B2E4B1885A4DE0088DD91 /* PoDo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PoDo-Info.plist"; sourceTree = "<group>"; };
+		AA6B2E4D1885A4DE0088DD91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA6B2E4F1885A4DE0088DD91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA6B2E511885A4DE0088DD91 /* PoDo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PoDo-Prefix.pch"; sourceTree = "<group>"; };
+		AA6B2E521885A4DE0088DD91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA6B2E531885A4DE0088DD91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA6B2E551885A4DE0088DD91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA6B2E5B1885A4DE0088DD91 /* PoDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6B2E5C1885A4DE0088DD91 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AA6B2E641885A4DE0088DD91 /* PoDoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PoDoTests-Info.plist"; sourceTree = "<group>"; };
+		AA6B2E661885A4DE0088DD91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA6B2E681885A4DE0088DD91 /* PoDoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoDoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA6B2E3D1885A4DE0088DD91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6B2E461885A4DE0088DD91 /* CoreGraphics.framework in Frameworks */,
+				AA6B2E481885A4DE0088DD91 /* UIKit.framework in Frameworks */,
+				AA6B2E441885A4DE0088DD91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6B2E581885A4DE0088DD91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6B2E5D1885A4DE0088DD91 /* XCTest.framework in Frameworks */,
+				AA6B2E5F1885A4DE0088DD91 /* UIKit.framework in Frameworks */,
+				AA6B2E5E1885A4DE0088DD91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA6B2E371885A4DE0088DD91 = {
+			isa = PBXGroup;
+			children = (
+				AA6B2E491885A4DE0088DD91 /* PoDo */,
+				AA6B2E621885A4DE0088DD91 /* PoDoTests */,
+				AA6B2E421885A4DE0088DD91 /* Frameworks */,
+				AA6B2E411885A4DE0088DD91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA6B2E411885A4DE0088DD91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA6B2E401885A4DE0088DD91 /* PoDo.app */,
+				AA6B2E5B1885A4DE0088DD91 /* PoDoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA6B2E421885A4DE0088DD91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA6B2E431885A4DE0088DD91 /* Foundation.framework */,
+				AA6B2E451885A4DE0088DD91 /* CoreGraphics.framework */,
+				AA6B2E471885A4DE0088DD91 /* UIKit.framework */,
+				AA6B2E5C1885A4DE0088DD91 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA6B2E491885A4DE0088DD91 /* PoDo */ = {
+			isa = PBXGroup;
+			children = (
+				AA6B2E521885A4DE0088DD91 /* AppDelegate.h */,
+				AA6B2E531885A4DE0088DD91 /* AppDelegate.m */,
+				AA6B2E551885A4DE0088DD91 /* Images.xcassets */,
+				AA6B2E4A1885A4DE0088DD91 /* Supporting Files */,
+			);
+			path = PoDo;
+			sourceTree = "<group>";
+		};
+		AA6B2E4A1885A4DE0088DD91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA6B2E4B1885A4DE0088DD91 /* PoDo-Info.plist */,
+				AA6B2E4C1885A4DE0088DD91 /* InfoPlist.strings */,
+				AA6B2E4F1885A4DE0088DD91 /* main.m */,
+				AA6B2E511885A4DE0088DD91 /* PoDo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA6B2E621885A4DE0088DD91 /* PoDoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA6B2E681885A4DE0088DD91 /* PoDoTests.m */,
+				AA6B2E631885A4DE0088DD91 /* Supporting Files */,
+			);
+			path = PoDoTests;
+			sourceTree = "<group>";
+		};
+		AA6B2E631885A4DE0088DD91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA6B2E641885A4DE0088DD91 /* PoDoTests-Info.plist */,
+				AA6B2E651885A4DE0088DD91 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA6B2E3F1885A4DE0088DD91 /* PoDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6B2E6C1885A4DE0088DD91 /* Build configuration list for PBXNativeTarget "PoDo" */;
+			buildPhases = (
+				AA6B2E3C1885A4DE0088DD91 /* Sources */,
+				AA6B2E3D1885A4DE0088DD91 /* Frameworks */,
+				AA6B2E3E1885A4DE0088DD91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoDo;
+			productName = PoDo;
+			productReference = AA6B2E401885A4DE0088DD91 /* PoDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA6B2E5A1885A4DE0088DD91 /* PoDoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6B2E6F1885A4DE0088DD91 /* Build configuration list for PBXNativeTarget "PoDoTests" */;
+			buildPhases = (
+				AA6B2E571885A4DE0088DD91 /* Sources */,
+				AA6B2E581885A4DE0088DD91 /* Frameworks */,
+				AA6B2E591885A4DE0088DD91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA6B2E611885A4DE0088DD91 /* PBXTargetDependency */,
+			);
+			name = PoDoTests;
+			productName = PoDoTests;
+			productReference = AA6B2E5B1885A4DE0088DD91 /* PoDoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA6B2E381885A4DE0088DD91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Steve Tuckner";
+				TargetAttributes = {
+					AA6B2E5A1885A4DE0088DD91 = {
+						TestTargetID = AA6B2E3F1885A4DE0088DD91;
+					};
+				};
+			};
+			buildConfigurationList = AA6B2E3B1885A4DE0088DD91 /* Build configuration list for PBXProject "PoDo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA6B2E371885A4DE0088DD91;
+			productRefGroup = AA6B2E411885A4DE0088DD91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA6B2E3F1885A4DE0088DD91 /* PoDo */,
+				AA6B2E5A1885A4DE0088DD91 /* PoDoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA6B2E3E1885A4DE0088DD91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6B2E4E1885A4DE0088DD91 /* InfoPlist.strings in Resources */,
+				AA6B2E561885A4DE0088DD91 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6B2E591885A4DE0088DD91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6B2E671885A4DE0088DD91 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA6B2E3C1885A4DE0088DD91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6B2E541885A4DE0088DD91 /* AppDelegate.m in Sources */,
+				AA6B2E501885A4DE0088DD91 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6B2E571885A4DE0088DD91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6B2E691885A4DE0088DD91 /* PoDoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA6B2E611885A4DE0088DD91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA6B2E3F1885A4DE0088DD91 /* PoDo */;
+			targetProxy = AA6B2E601885A4DE0088DD91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA6B2E4C1885A4DE0088DD91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA6B2E4D1885A4DE0088DD91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA6B2E651885A4DE0088DD91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA6B2E661885A4DE0088DD91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA6B2E6A1885A4DE0088DD91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA6B2E6B1885A4DE0088DD91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA6B2E6D1885A4DE0088DD91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PoDo/PoDo-Prefix.pch";
+				INFOPLIST_FILE = "PoDo/PoDo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA6B2E6E1885A4DE0088DD91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PoDo/PoDo-Prefix.pch";
+				INFOPLIST_FILE = "PoDo/PoDo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AA6B2E701885A4DE0088DD91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PoDo.app/PoDo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PoDo/PoDo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PoDoTests/PoDoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AA6B2E711885A4DE0088DD91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PoDo.app/PoDo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PoDo/PoDo-Prefix.pch";
+				INFOPLIST_FILE = "PoDoTests/PoDoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA6B2E3B1885A4DE0088DD91 /* Build configuration list for PBXProject "PoDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6B2E6A1885A4DE0088DD91 /* Debug */,
+				AA6B2E6B1885A4DE0088DD91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6B2E6C1885A4DE0088DD91 /* Build configuration list for PBXNativeTarget "PoDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6B2E6D1885A4DE0088DD91 /* Debug */,
+				AA6B2E6E1885A4DE0088DD91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA6B2E6F1885A4DE0088DD91 /* Build configuration list for PBXNativeTarget "PoDoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6B2E701885A4DE0088DD91 /* Debug */,
+				AA6B2E711885A4DE0088DD91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA6B2E381885A4DE0088DD91 /* Project object */;
+}
