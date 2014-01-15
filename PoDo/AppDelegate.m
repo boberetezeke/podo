@@ -7,15 +7,31 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
+#import "User.h"
+#import "Group.h"
+#import "Task.h"
+#import "TodosViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [User registerSubclass];
+    [Group registerSubclass];
+    [Task registerSubclass];
+
+    [Parse setApplicationId:@"szFeEGh3tlBJjXi0O9K5xxaTxvJMPMov4jpJXg56"
+                  clientKey:@"T9FFngSSbQvqKl9tuVgTcEwoAwAVoIELcjUsO0TN"];
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:[[TodosViewController alloc] init]];
+    self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
+
     return YES;
 }
 
